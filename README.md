@@ -3,7 +3,7 @@
 ## Microservice project
 
 #### Vue d'implémentation de la technologie Spring boot
-![](capture_ecran/spring_boot.png)
+![GitHub Logo](capture_ecran/spring_boot.png)
 
 #### Vue d'implémentation de microservice
 ![](capture_ecran/msa.png)
@@ -46,4 +46,4 @@ considérablement.
 
 #### Diagramme de déploiement de la solution
 
-![](capture_ecran/deployment_diagram.png)
+![GitHub Logo](capture_ecran/deployment_diagram.png)
