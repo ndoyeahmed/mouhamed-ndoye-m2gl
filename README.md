@@ -6,7 +6,7 @@
 ![spring_boot](https://user-images.githubusercontent.com/49942742/77066557-4a170b80-69db-11ea-99c6-9e32730a6ad0.PNG)
 
 #### Vue d'implémentation de microservice
-![](capture_ecran/msa.png)
+![MSA](https://user-images.githubusercontent.com/49942742/77066623-67e47080-69db-11ea-91f7-6c39a4416e75.PNG)
 
 
 #### Etude comparative entre l'architecture SOA et MSA
@@ -46,4 +46,4 @@ considérablement.
 
 #### Diagramme de déploiement de la solution
 
-![GitHub Logo](capture_ecran/deployment_diagram.png)
+![deployment_diagram](https://user-images.githubusercontent.com/49942742/77066652-7468c900-69db-11ea-8b40-ce0e6c6cce2b.PNG)
