@@ -19,6 +19,7 @@ import javax.validation.constraints.Min;
 @Setter(AccessLevel.PUBLIC)
 @Getter(AccessLevel.PUBLIC)
 @Entity
+// permet d'ajouter un filtre
 @JsonFilter("monFiltreDynamique")
 public class Product {
     @Id
@@ -30,4 +31,14 @@ public class Product {
     private int prix;
     //information que nous ne souhaitons pas exposer
     private int prixAchat;
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                ", prix=" + prix +
+                ", prixAchat=" + prixAchat +
+                '}';
+    }
 }

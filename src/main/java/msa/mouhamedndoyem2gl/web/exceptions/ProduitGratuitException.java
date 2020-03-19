@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  * @author Mouhamed NDOYE M2GL
  */
 @ResponseStatus(HttpStatus.NOT_FOUND)
-public class ProduitIntrouvableException extends RuntimeException {
-    public ProduitIntrouvableException(String s) {
+public class ProduitGratuitException extends RuntimeException {
+    public ProduitGratuitException(String s) {
         super(s);
     }
 }

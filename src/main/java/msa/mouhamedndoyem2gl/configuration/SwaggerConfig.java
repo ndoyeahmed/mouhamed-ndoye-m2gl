@@ -8,10 +8,16 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * classe pour gérer la documentation de l'api
+ *
+ * @author Mouhamed NDOYE M2GL
+ */
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
 
+    // configurer et personnaliser la documentation swagger avec Docket
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
